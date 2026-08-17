@@ -1,0 +1,6 @@
+python-dotenv
+transformers
+sentence-transformers
+fastapi
+uvicorn
+pytest
