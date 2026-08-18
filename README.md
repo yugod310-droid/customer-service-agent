@@ -36,7 +36,7 @@ LangGraph
 Evaluation
  ↓
 Production Engineering
-1. 项目最终目标
+**1. 项目最终目标**
 
 最终构建一个具备真实业务落地能力的 Enterprise Customer Service Agent。
 
@@ -89,7 +89,7 @@ Production Engineering
                           v
 
                  Production Service
-2. 项目业务场景
+**2. 项目业务场景**
 
 项目模拟运营商 / 企业客服常见业务。
 
@@ -168,7 +168,7 @@ Agent：
 调用 escalate_to_human()
  ↓
 进入人工流程
-3. Agent 最终工作流程
+**3. Agent 最终工作流程**
 
 最终 Agent 不只是：
 
@@ -226,7 +226,7 @@ LLM 理解用户需求
                     v
 
               生成最终回复
-4. 当前项目状态
+**4. 当前项目状态**
 已完成
  Python 项目基础结构
  FastAPI API 服务
@@ -255,7 +255,7 @@ LLM 理解用户需求
  Evaluation
  Docker
  CI/CD
-5. 项目核心理念
+**5. 项目核心理念**
 
 本项目遵循：
 
@@ -275,7 +275,7 @@ LLM 理解用户需求
 
 这个技术在最终客服 Agent 中解决什么问题？
 
-6. LLM 能力
+**6. LLM 能力**
 
 LLM 是 Agent 的核心“大脑”。
 
@@ -300,7 +300,7 @@ Intent 判断
 调用 Tool / RAG
     ↓
 生成最终回复
-7. Intent 理解
+**7. Intent 理解**
 
 当前版本：
 
@@ -359,7 +359,7 @@ Qwen
 
 由 LLM 理解用户，而不是依赖大量 if/else。
 
-8. Structured Output
+**8. Structured Output**
 
 为了让 LLM 稳定参与 Agent 决策，需要让模型输出结构化数据。
 
@@ -388,7 +388,7 @@ Structured Output
 参数校验
 输出异常处理
 
-9. Tool Calling
+**9. Tool Calling**
 
 Tool Calling 是整个 Agent 最重要的能力之一。
 
@@ -638,14 +638,11 @@ Top-K Retrieval
 Reranking
 Context Management
 RAG Evaluation
-11. Memory
 
+**11. Memory**
 真实客服不是一次问答。
-
 用户可能连续沟通：
-
 用户：
-
 我的订单什么时候到？
 
 Agent：
