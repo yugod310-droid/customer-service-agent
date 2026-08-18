@@ -24,6 +24,12 @@ class CustomerAgentTests(unittest.TestCase):
         self.assertEqual(result["intent"], "balance")
         self.assertTrue(result["success"])
 
+    def test_handle_customer_query_knowledge_lookup(self):
+        result = handle_customer_query("退款会多久到账")
+        self.assertIn(result["intent"], ["knowledge", "unknown"])
+        self.assertTrue(result["success"])
+        self.assertTrue(bool(result["data"]))
+
 
 if __name__ == "__main__":
     unittest.main()
